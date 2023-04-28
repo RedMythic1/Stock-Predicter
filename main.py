@@ -1,4 +1,7 @@
 import finnhub
+import pandas as pd
+import plotly.express as px
+
 fh = finnhub.Client(api_key="cakj47iad3ier73m8dtg")
 BTC = fh.quote("BTC-USD")
 NVDA = fh.quote("NVDA")
