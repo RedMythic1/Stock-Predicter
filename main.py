@@ -7,7 +7,7 @@ NVDA = fh.quote("NVDA")
 
 
 AAPL_GAIN = AAPL['c'] - AAPL['pc']
-NVDA_EST_CLOSE = round(-38.6718*((1)**((AAPL['c']**6)-20900000000000))+314.034,2)
+NVDA_EST_CLOSE = round((3.36805*AAPL['c'])-281.54,2)
 
 NVDA_ACT_CLOSE = round(NVDA['c'],2)
 
